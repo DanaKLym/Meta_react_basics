@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(203, 251, 251);
+  padding: 15px;
+  display: flex;
+}
+
+.nav-item {
+  flex: 1;
+  justify-content: space-between;
+}
