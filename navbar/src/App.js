@@ -3,6 +3,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 import Homepage from './Homepage';
 import AboutMe from './AboutMe';
 import Gallery from './Gallery';
+import Music from './Music';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Link to="./gallery"  className='nav-item'>Gallery </Link>
       </nav>
       <h1>Linking, routing and embedded assets</h1>
+      <Music/>
       <Routes>
         <Route path='/' element={<Homepage/>} />
         <Route path='/about-me' element={<AboutMe />} />
