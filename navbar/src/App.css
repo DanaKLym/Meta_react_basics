@@ -12,3 +12,9 @@ nav {
   flex: 1;
   justify-content: space-between;
 }
+
+.video-item {
+ margin: 25px;
+ display: flex;
+ justify-content: space-around;
+}
